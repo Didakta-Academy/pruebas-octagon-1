@@ -1,0 +1,132 @@
+
+body {
+    background-color: rgb(188, 188, 188);
+    font-family: Inter;
+}
+
+.navbar {
+    border-bottom: 2px solid rgb(2, 2, 2);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    img {
+        width: 120px;
+        margin: 20px;
+        margin-left: 50px;
+    }
+
+    .nav-links {
+        display: flex;
+        margin-right: 2rem;
+        div {
+            width: auto;
+            /* margin: auto; */
+            margin: auto 1rem;
+        }
+    }
+}
+
+.main {
+    display: flex;
+
+    .sidebar {
+        border-right: 2px solid black;
+        width: 14rem;
+        height: 100%;
+        position: fixed;
+
+        .side-links {
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-end;
+            /* border: 1px solid red; */
+            /* height: 160px; */
+            div {
+                /* border: 1px solid blue; */
+                /* width: auto; */
+                text-align: right;
+                margin: auto;
+                height: 80px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 60%;
+                padding-right: 20%;
+                padding-left: 20%;
+            }
+        }
+    }
+
+    .content {
+        padding-left: 14rem;
+        font-size: 1.4rem;
+
+
+        .content-2 {
+            padding: 2rem;
+            text-align: center;
+
+            .pdf-content {
+                text-align: left;
+                margin: 40px 200px;
+
+                .course-box {
+                    border: 2px solid black;
+                    border-radius: 4px;
+                    margin: 30px;
+                    margin-left: 50px;
+                    padding:20px;
+                    text-align:center;
+                    background-color: rgb(205, 204, 202);
+                    img {
+                        padding:20px;
+                    }
+                    .buy-div {
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        /* margin: 0 90px; */
+                        /* border: 1px solid blue; */
+                        margin: auto;
+                        /* font-weight: ; */
+                        button {
+                            height: 3rem;
+                            width: 5rem;
+                            margin: auto 0;
+                            background-color: rgb(140, 212, 140);
+                            border: 2px solid grey;
+                            border-radius: 5px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+
+                .get-started-course {
+                    /* background-color: red;
+                    text-align: right; */
+                }
+            }
+
+
+        }
+
+    }
+
+    .decision-making {
+        display:flex;
+        width:800px;
+        justify-content: space-between;
+        /* background-color: red; */
+        .dec-child {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 2rem;
+            border: 3px solid black;
+            border-radius: 5px;
+            /* margin: auto; */
+        }
+    }
+
+}
+
